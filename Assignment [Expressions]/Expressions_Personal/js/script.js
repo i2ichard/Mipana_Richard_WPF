@@ -16,4 +16,3 @@ var eatAnnual = 52.1775 * eatAvg;
 
 //Print out how much money I spend annually on eating out using console.log.
 console.log("Based on the amount of money I spend on eating out each week for 5 weeks ($" + eatAvg + ")," + " I spend about $" + eatAnnual + " each year on eating out.");
-
