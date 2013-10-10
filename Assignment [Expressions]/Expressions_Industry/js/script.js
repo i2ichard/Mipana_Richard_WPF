@@ -11,4 +11,4 @@ var hourInputs = [19, 26, 48, 35, 21, 30, 18, 29, 31]; //Arbitrary set of userIn
 //Result Variables
 var avgHourly = (hourInputs[0] + hourInputs[1] + hourInputs[2] + hourInputs[3] + hourInputs[4] + hourInputs[5] + hourInputs[6] + hourInputs[7] + hourInputs[8]) / 9
 
-console.log(avgHourly);
+console.log("The average age demographic of this website is " + avgHourly);
