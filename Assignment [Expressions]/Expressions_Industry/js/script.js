@@ -4,7 +4,7 @@
 
 //Givens
 
-var userInput = prompt("Please tell us your age."); 
+var userInput = prompt("Please tell us your age."); //Irrelevent to the final data at the moment. Still trying to find a way to store userInput throughout the span of an hour and use that data to calculate the average age.
 alert("Thank you!"); 
 var hourInputs = [19, 26, 48, 35, 21, 30, 18, 29, 31]; //Arbitrary set of userInput ages throughout an hour.
 
