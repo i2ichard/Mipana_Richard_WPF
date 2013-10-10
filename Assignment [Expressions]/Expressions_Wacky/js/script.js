@@ -9,4 +9,4 @@ var rimHeight = 120; //Height of the basketball rim in inches
 //Result Variables
 var touchRim = rimHeight - userMax;
 var vertDunk = touchRim + 10; //You need to reach at least 10 inches above the rim in order to get the ball over the rim and throw it down!! 
-console.log(vertDunk);
+console.log("You need to jump " + touchRim + " inches in order to touch the rim and you need to jump " + vertDunk + " inches in order to dunk.");
