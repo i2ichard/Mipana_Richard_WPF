@@ -7,5 +7,6 @@ var userMax = prompt("What is your max reach in inches? \n(max height of arms in
 var rimHeight = 120; //Height of the basketball rim in inches
 
 //Result Variables
-var touchRim = rimHeight - userMax
-console.log(touchRim)
+var touchRim = rimHeight - userMax;
+var vertDunk = touchRim + 10; //You need to reach at least 10 inches above the rim in order to get the ball over the rim and throw it down!! 
+console.log(vertDunk);
