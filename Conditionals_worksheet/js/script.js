@@ -1,17 +1,18 @@
-//Conditional Logic
+//Richard Mipana, 10/17/2013, Conditionals_worksheet
 
-var kidHeight = 49;
-var minHeight = 48;
-var wParentHeight = 45
+//Stuff your face I
+//Does the entrant meet the minimum weight qualification to enter the contest?
 
+//Given: Competitor's Weight
 
-//if the child is old enough, print to the console "you can ride!"
+var compWeight = 251
 
-if(kidHeight > minHeight){
-	//code performed if condition is true
-	console.log("you can ride the coaster!");
-}else if(kidHeight >= wParentHeight){
-	console.log("you can ride, but only with a parent present.");
+//Result: "The competitor qualifies for the heavweight division" Or "The competitor needs to gain some weight!"
+
+if(compWeight >= 250){
+	//if greater than or equal to 250 pounds
+	console.log("The competitor qualifies for the heavyweight division.");
 }else{
-	console.log("sorry kid, you've got some growing to do first!");
+	//if less than 250 pounds
+	console.log("The competitor needs to gain some weight!");
 }
