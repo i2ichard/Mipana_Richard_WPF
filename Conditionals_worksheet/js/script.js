@@ -61,7 +61,7 @@ if(namEnt === corNam && pasEnt === corPas){
 }
 if(namEnt != corNam){
 	//if the username does not match
-	console.log("User not found. Try again");
+	console.log("User not found. Try again.");
 }
 if(namEnt === corNam && pasEnt != corPas){
 	//if the username matches but the password does not.
@@ -69,4 +69,19 @@ if(namEnt === corNam && pasEnt != corPas){
 }
 	
 
-	
+//Tire Pressure I
+//To meet to maintenance standards a car’s front two tires should have the same pressure and the back two tires should have the same pressure.  But the front tires and the rear tires can have different pressure than each other, so it is not necessary for all four tires’ pressure to be the same. Create a single conditional that would determine if the tires of a given car are up to spec. 
+
+//Given: Pressure for each tire of the car (in psi) in an array.
+
+var tirePres = [32, 32, 28, 29]
+
+//Result: "The tires pass spec!" or "Get your tires checked out!"
+
+if(tirePres[0] === tirePres[1] && tirePres[2] === tirePres[3]){
+	//if the tires are within spec
+	console.log("The tires pass spec!");
+}else{
+	//if the tires are not within spec
+	console.log("Get your tires checked out!");
+}	
