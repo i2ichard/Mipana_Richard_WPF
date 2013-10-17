@@ -6,7 +6,7 @@
 
 //Givens
 var restDis = prompt("How far is the restaurant? (in miles)")
-var delRate = 1 //Let's assume that all restaurants in the area charge the same $1 per mile for delivery
+var delRate = 1 //Let's assume that all restaurants in the area charge the same $1 per mile rate for delivery
 var foodCost = prompt("What's the cost of all the food?")
 var pepSplit = prompt("How many people are eating?")
 
