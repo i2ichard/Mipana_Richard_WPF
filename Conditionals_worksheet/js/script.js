@@ -41,3 +41,32 @@ if(carRange > nextGas){
 	//if the car cannot make it to the next gas station with the gas it currently has.
 	console.log("You only have " + gasInTank + " gallons of gas in your tank, better get gas now while you can!");
 }
+
+
+//Check the Login
+//Make sure the user has the correct username and password. If the username doesn’t match then a specific message for that should be printed to the console. If the password doesn’t match a message should appear for that, etc. Only one error message should appear.
+
+//Given: Username entered by user, Password entered by user, Correct username, Correct password
+
+var namEnt = prompt("Username")
+var pasEnt = prompt("Password")
+var corNam = "richard.mipana"
+var corPas = "webDev"
+
+//Result: "Welcome, (username)!" - if the username and password is correct, "User not found. Try again." - if the username does not match, "Password does not match our records." - if the username matches but the password does not.
+
+if(namEnt === corNam && pasEnt === corPas){
+	//if both the username and password match the records
+	console.log("Welcome," + corNam + "!");
+}
+if(namEnt != corNam){
+	//if the username does not match
+	console.log("User not found. Try again");
+}
+if(namEnt === corNam && pasEnt != corPas){
+	//if the username matches but the password does not.
+	console.log("Password does not match our records.")
+}
+	
+
+	
