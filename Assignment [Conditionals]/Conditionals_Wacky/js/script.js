@@ -7,5 +7,5 @@
 var hourSlept = prompt("How many hours did you sleep?");
 var hoursWork = prompt("How many hours will you be working today?");
 
-//Result
-(hourSlept >= 6 && hoursWork <= 5) ? console.log("You could probably manage without coffee") : console.log("Go get yourself some coffee. You're gonna need it.")
+//Result - If I got more than 6 hourse of sleep and I have less than 5 hourse of work to do, I won't need to get coffee.
+(hourSlept >= 6 && hoursWork <= 5) ? console.log("You could probably manage without coffee") : console.log("Go get yourself some coffee. You're gonna need it.");
