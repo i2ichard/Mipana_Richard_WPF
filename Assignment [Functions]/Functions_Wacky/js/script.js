@@ -1,0 +1,1 @@
+//Richard Mipana, 10/24/2013, Assignments_[Functions] - Wacky Calculator
