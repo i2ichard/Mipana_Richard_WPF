@@ -24,10 +24,10 @@ function calcLethal(X){
 	//Return: The number of bee stings
 	var stings = X / 8.66666666667; //The formula for calculating how many stings it would take to kill an animal is "X(vitim's weight)" / 8.66666666667
 	//Result: Print to the console, "It takes X bee stings to kill an animal that weights Y pounds."
-	console.log("It takes " + stings + " bee stings to kill an animal that weighs " + vicWeight + "lbs.")
+	console.log("It takes " + stings + " bee stings to kill an animal that weighs " + vicWeight + " pounds.")
 }
 
-calcLethal(70);
-calcLethal(100);
+calcLethal(80);
+calcLethal(156);
 
 
