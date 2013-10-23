@@ -23,4 +23,4 @@ function calcCost(X, Y){
 	
 }
 
-calcCost(3.69, 13.50);
+calcCost(3.78, 13.50);
