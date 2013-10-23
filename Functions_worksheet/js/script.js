@@ -17,4 +17,15 @@ calcCirc(1);
 
 
 
+//Stung! - It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
+function calcLethal(){
+	//Parameter(s): Victim's weight (in pounds)
+	var vicWeight = X;
+	//Return: The number of bee stings
+	var stings = X / 8.66666666667;
+	
+}
+
+
+//Given: Victim's Weight (in pounds)
 
