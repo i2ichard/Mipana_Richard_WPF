@@ -1,24 +1,11 @@
 //Richard Mipana, 10/24/2013, Assignments_[Functions] - Wacky Calculator
 
-//Doggie Boot Camp.
+//Every November for the past 3 years, a new Call of Duty game has been released. It's quite sad to think how much time I've spent playing these games. To put things into perspective, I want to create a calculator that tells me how many hours I've played and what that hour amount equals to in money, and calories I could be burning from playing basketball instead.
 
-//My dog Nigel is fat. I want him to loose 5 pounds but I only have a limited amount of time each day after work that I can walk him. I want to calculate how long it will take for him to lose 5 pounds just from taking daily walks while doing it in a healthy fashion. I did some research on Google and found that for my dog's weight (77 lbs.), a healthy daily caloric intake is around 1800 calories. I also found that in order to lose a single pound, he'd have to burn 3500 calories.
+//Givens: hourly wage($13.00), calories burned per hour of playing full court basketball (776)
 
-//Given: Nigel's Weight (77 lbs.), healthy daily caloric intake (1800 calories), the number of calories being burned from walking at a pace of 4 mph and @80lbs per hour (192)
+var hourRate = 13.00
+var bballCals = 776
 
-function calcWeightLoss(X){
-	var nigWeight = 80;
-	var calIntake = 1800;
-	var calsPerHour = 192;
-	var calsPerPound = 3500;
-	
-//Parameters: How many hours per day I want to walk Nigel or the distance I want to walk Nigel every day.	
-	var calBurnGoal = calsPerPound * 5; // This is the target goal of 5 pounds in calories.
-	var timeToGoal = calBurnGoal / calsPerHour; //This is the number of hours it will take to burn the calories.
-	var hoursPerWeek = X; //This is the X number of hours per week I am willing to walk Nigel
-	var weeksToGoal = timeToGoal/hoursPerWeek 
-	console.log(weeksToGoal);
+//Parameters: hours per day spent playing Call Of Duty.
 
-}
-
-calcWeightLoss(9);
